@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behind The Matrix - DIO/title>
+    
+    <!-- Aframe -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <!-- Enviroment Component-->
+    <script src="https://unpkg.com/aframe-environment-component@1.2.0/dist/aframe-environment-component.min.js"></script>
+    
+    <!-- text geo-->
+    <script src="https://unpkg.com/aframe-text-geometry-component@^0.5.0/dist/aframe-text-geometry-component.min.js"></script> 
+
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="stairs-obj" src="stairs-obj"></a-asset-item>
+        </a-assets>
+
+        <a-entity obj-model="obj: #stairs-obj"></a-entity>
+                    
+    </a-scene>
+</body>
+</html>
